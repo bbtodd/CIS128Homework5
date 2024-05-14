@@ -1,0 +1,28 @@
+{
+    "name": "CIS128 App",
+    "short_name": "App",
+    "display": "standalone",
+    "start_url": "/CIS128Homework5/index.html",
+    "icons": [
+      {
+        "src": "/CIS128Homework5/images/icon-152x152.gif",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/CIS128Homework5/images/icon-192x192.gif",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/CIS128Homework5/images/icon-512x512.gif",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+
+    ],
+    "orientation": "portrait-primary",
+    "theme_color": "#bada55",
+    "background_color": "#ffffff",
+    "prefer_related_applications": false
+  }

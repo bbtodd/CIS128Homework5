@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A comparison of hybrid app technology for XYZ Corp.">
+    <title>Homework 5: CIS-128-OLH-Mobile Web App Development</title>
+    <!-- pwa manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="src/output.css">
+    
+    <script src="scripts/scripts.js?s=3" defer></script>
+    <script src="scripts/app.js" defer></script>
+
+  </head>
+  <body>
+
+
+
+    <div class="mx-auto container max-w-screen-lg border border-cyan-100">
+      <header class="bg-blue-300 p-10">
+
+        <h1 class="text-4xl font-bold">A comparison of hybrid solutions for XYZ Corp.</h1>
+      </header>
+      
+      <main>
+
+
+        <!-- -------- -->
+        <!-- PHONEGAP -->
+        <!-- -------- -->
+        <section class="mt-8" id="phonegap">
+          <h3 class="text-2xl font-bold">PhoneGap</h3>
+          <p class="my-2">PhoneGap, is a mobile development framework for building hybrid apps using familiar web technologies such as HTML, CSS, and JavaScript. By bridging the gap between web technologies and native device features, PhoneGap allows developers to access native APIs through JavaScript interfaces.</p>
+          <p class="my-2 font-semibold">Some benefits of using PhoneGap for app development: </p>
+          <ul class="list-disc list-inside">
+            <li>
+              Creating a single codebase for multiple platforms reduces costs compared to developing separate native apps.
+            </li>
+            <li>
+              Hybrid apps can be published on multiple platforms without platform-specific development.
+            </li>
+            <li>
+              Changes made to the codebase <a target="_blank" rel="noopener" class="underline" href="https://clouddevs.com/phonegap/getting-started/">reflect across all platforms simultaneously</a>, making updates hassle-free.
+            </li>
+          </ul>
+          <p class="my-2 font-semibold">Some of the downsides to using Phonegap are: </p>
+          <ul class="list-disc list-inside">
+            <li>
+              PhoneGap <a target="_blank" rel="noopener" class="underline" href="https://www.valuecoders.com/blog/technology-and-apps/features-advantages-disadvantages-phonegap/">doesn't support all native functions</a>.
+            </li>
+            <li>
+              Hybrid apps developed with PhoneGap may suffer from <a target="_blank" rel="noopener" class="underline" href="https://www.valuecoders.com/blog/technology-and-apps/features-advantages-disadvantages-phonegap/">subdued peformance</a> compared to native apps.
+            </li>
+            <li>
+              Another concern is that PhoneGap is unfortunately deprecated, however <a target="_blank" rel="noopener" class="underline" href="https://cordova.apache.org/announcements/2020/08/14/goodbye-phonegap.html">there is still an active community of developers</a> that maintain this technology.
+            </li>
+          </ul>
+        </section>
+
+        
+        <!-- ------- -->
+        <!-- FLUTTER -->
+        <!-- ------- -->
+        <section class="mt-8" id="flutter">
+          <h3 class="text-2xl font-bold">Flutter</h3>
+          <p class="my-2">Flutter is a mobile app SDK backed by Google. It can build high-performance apps for iOS and Android, from a single codebase.</p>
+          <p class="my-2 font-semibold">Some benefits of Flutter for app development: </p>
+          <ul class="list-disc list-inside">
+            <li>
+              Flutter offers features like <a target="_blank" rel="noopener" class="underline" href="https://flutter.dev/">Hot Reload</a>, which allows developers to quickly iterate and see changes without losing app state.
+            </li>
+            <li>
+              Flutter code <a target="_blank" rel="noopener" class="underline" href="https://docs.flutter.dev/tools/hot-reload">compiles to ARM or Intel machine code, as well as JavaScript</a>. This results in fast performance on any device.
+            </li>
+            <li>
+              Flutter is backed by Google, used by many large brands, and has a large community of developers.
+            </li>
+            <p class="my-2 font-semibold">Some of the negatives to using Flutter are: </p>
+            <ul class="list-disc list-inside">
+              <li>
+                Flutter apps can be <a target="_blank" rel="noopener" class="underline" href="https://www.inexture.com/flutter-app-development-pros-cons-tips/">on the larger side</a>.
+              </li>
+              <li>
+                Google has some very good libraries like Firebase and Maps but it still <a target="_blank" rel="noopener" class="underline" href="https://www.inexture.com/flutter-app-development-pros-cons-tips/">lacks a lot of third party apps</a> compared to native apps.
+              </li>
+              <li>
+                Additionally, Flutter uses DART, a language created by Google and not widely adopted or used in the devlopment community. Dart is based on Java so developers familar with Java could potentially learn this but there is a more limited pool of developers that could jump in and build a Flutter app.
+              </li>
+            </ul>
+          </section>
+      
+        <!-- ------------ -->
+        <!-- REACT NATIVE -->
+        <!-- ------------ -->
+        <section class="mt-8" id="react-native">
+          <h3 class="text-2xl font-bold">React Native</h3>
+          <p class="my-2">React Native is a JavaScript library that allows you to create native apps for Android and iOS using React. It combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.</p>
+          <p class="my-2">PhoneGap is a deprecated utility</p>
+          <p class="my-2 font-semibold">Some benefits of React Native for app development: </p>
+          <ul class="list-disc list-inside">
+            <li>
+              React Native lets you write code once and use it across different platforms. You can create native apps for Android, iOS, and more.
+            </li>
+            <li>
+                React Native apps are written in JavaScript but rendered with native code. This means your app uses the same native platform APIs as other apps.
+            </li>
+            <li>
+                React is very popular and supported by Facebook. And becauase JavaScript is also a popular and widespread language, ranking #4 on <a target="_blank" rel="noopener" class="underline" href="https://www.hackerrank.com/blog/most-popular-languages-2023/">Hacker Rank's</a> 2023 list meaning you will have a large pool of developers that can build and maintain your app. 
+            </li>
+          </ul>
+          <p class="my-2 font-semibold">Some of the drawbacks to using React Native are: </p>
+          <ul class="list-disc list-inside">
+            <li>
+              React Native doesn't always provide a truly native feel.
+            </li>
+            <li>
+              React Native apps may have a larger app size due to the need for a JavaScript VM.
+            </li>
+            <li>
+              React Native suffers from limited <a target="_blank" rel="noopener" class="underline" href="https://www.pocket-lint.com/phones/news/apple/135244-what-is-apple-s-3d-touch-and-how-does-it-work/">3D touch</a> support.
+            </li>
+          </ul>
+        </section>
+    
+
+
+
+      </main>
+      <footer class="p-4">&copy; XYZ Corp.</footer>
+    </div>
+  </body>
+</html>
